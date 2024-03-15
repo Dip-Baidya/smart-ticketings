@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-Ticket</title>
+    <!-- Custom CSS link -->
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Tailwind & Daisy UI -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="container mx-auto">
+    <!-- NavBar Section  -->
+    <div class="navbar bg-base-100 mt-6">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-ghost text-[#030712] text-3xl font-extrabold">P-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-[#030712B3] ">
+                <li><a class="text-lg">Home</a></li>
+                <li><a class="text-lg">About</a></li>
+                <li><a class="text-lg">Destination</a></li>
+                <li><a class="text-lg">Search</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <a class="btn bg-[#1DD1001A]  rounded-lg lg:px-7 text-[#1DD100] text-xl border-[#1DD10066] lg:gap-x-3">Bus
+                <img src="images/bus-icon.png" alt="" srcset=""></a>
+        </div>
+    </div>
+
+    <!-- Banner Section -->
+
+    <div class="mt-4 relative">
+        <img class="container mx-auto" src="images/banner.png" alt="" srcset="">
+        <div class="absolute left-2/4 top-2/4 text-center -translate-x-2/4 -translate-y-2/4 space-y-4">
+            <h1 class="text-white text-6xl font-extrabold">End-to-End Travel with</h1>
+            <h1 class="text-[#1DD100] text-6xl font-extrabold">P Paribahan</h1>
+            <p class="text-white text-lg">Yes, you can run unit tests and view the results directly within the app. The integrated testing features
+                allow for a streamlined .</p>
+            <a href="#" class="btn bg-[#1DD100] text-[#030712] border-opacity-0 text-xl font-bold">Buy Tickets</a>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
